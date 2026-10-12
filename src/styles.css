@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: #f1f4f9;
+  color: #1b1f3b;
+}
+
+button, input { font-family: inherit; }
+
+.btn {
+  padding: 7px 14px;
+  border: 1px solid #cfd4e2;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.btn:hover { background: #f0f2f8; }
+
+:focus-visible { outline: 2px solid #4f6df5; outline-offset: 2px; }

@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "shortName": "CSPM",
+      "widgets": [
+        {
+          "id": "w1", "name": "Cloud Accounts", "type": "donut", "selected": true,
+          "text": "Connected and not connected cloud accounts.",
+          "segments": [
+            { "label": "Connected", "value": 1, "color": "#4f6df5" },
+            { "label": "Not Connected", "value": 1, "color": "#dfe5fb" }
+          ]
+        },
+        {
+          "id": "w2", "name": "Cloud Account Risk Assessment", "type": "donut", "selected": true,
+          "text": "Risk checks across all connected accounts.",
+          "segments": [
+            { "label": "Failed", "value": 1689, "color": "#c0201f" },
+            { "label": "Warning", "value": 681, "color": "#f6c343" },
+            { "label": "Not available", "value": 36, "color": "#cfd3dc" },
+            { "label": "Passed", "value": 7253, "color": "#1fa65a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "shortName": "CWPP",
+      "widgets": [
+        { "id": "w3", "name": "Top 5 Namespace Specific Alerts", "type": "empty", "text": "No Graph data available!", "selected": true },
+        { "id": "w4", "name": "Workload Alerts", "type": "empty", "text": "No Graph data available!", "selected": true }
+      ]
+    },
+    {
+      "id": "image",
+      "name": "Registry Scan",
+      "shortName": "Image",
+      "widgets": [
+        {
+          "id": "w5", "name": "Image Risk Assessment", "type": "bar", "selected": true,
+          "text": "Total vulnerabilities by severity.",
+          "segments": [
+            { "label": "Critical", "value": 9, "color": "#7a1313" },
+            { "label": "High", "value": 150, "color": "#e8552b" },
+            { "label": "Medium", "value": 600, "color": "#f6a43b" },
+            { "label": "Low", "value": 711, "color": "#f6c343" }
+          ]
+        },
+        {
+          "id": "w6", "name": "Image Security Issues", "type": "bar", "selected": true,
+          "text": "Scanned images by severity.",
+          "segments": [
+            { "label": "Critical", "value": 1, "color": "#7a1313" },
+            { "label": "High", "value": 1, "color": "#c0201f" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ticket",
+      "name": "Tickets",
+      "shortName": "Ticket",
+      "widgets": [
+        { "id": "w7", "name": "Open Tickets", "type": "text", "text": "Lorem ipsum dolor sit amet, 14 open tickets.", "selected": false },
+        { "id": "w8", "name": "Resolved Tickets", "type": "text", "text": "Lorem ipsum dolor sit amet, 52 resolved tickets.", "selected": false }
+      ]
+    }
+  ]
+}
